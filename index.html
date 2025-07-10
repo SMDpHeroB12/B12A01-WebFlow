@@ -27,7 +27,7 @@
       </div>
     </header>
     <main>
-      <section class="action">
+      <section class="action" id="action">
         <div class="action-content">
           <h3 class="action-title section-title dark-1">See It in Action</h3>
           <p class="action-description section-description dark-2">
@@ -62,7 +62,7 @@
         </div>
       </section>
 
-      <section class="reviewers dark-1">
+      <section class="reviewers dark-1" id="feedback">
         <h3 class="reviewers-title section-title text-center">
           What our users say
         </h3>
@@ -155,7 +155,47 @@
         <button class="btn-primary text-center">Ger Started Free</button>
         <img src="Assets/wc-big.png" alt="" class="focus-better-banner" />
       </section>
+      <section class="get-in-touch" id="getInTouch">
+        <div class="get-in-touch-container">
+          <h1 class="section-title">Let’s Get in Touch</h1>
+          <form action="" class="inter-normal">
+            <label for="userEmail">Email</label>
+            <input
+              type="email"
+              name="userEmail"
+              id=""
+              placeholder="example@email.com"
+            />
+
+            <label for="userName">Name</label>
+
+            <input type="text" name="userName" id="" placeholder="Full Name" />
+
+            <label for="description">Message</label>
+
+            <textarea
+              name="description"
+              id=""
+              placeholder="Write your message here...."
+              rows="5"
+            ></textarea>
+            <input type="button" value="Get in Touch" class="btn-primary" />
+          </form>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer text-center inter-normal">
+      <h1 class="footer-title text-primary">LOGO</h1>
+      <p class="footer-description text-center dark-2">
+        Ready to elevate your online presence? Contact us today to discuss your
+        project and discover how we can bring your vision to life.
+      </p>
+      <ul>
+        <li><a class="dark-2" href="#">Home</a></li>
+        <li><a class="dark-2" href="#feedback">About</a></li>
+        <li><a class="dark-2" href="#getInTouch">How it Works</a></li>
+        <li><a class="dark-2" href="#action">Services</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
