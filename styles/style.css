@@ -67,6 +67,7 @@ body {
 .header {
   background-image: url("../Assets/Hero-bg.png");
   padding-bottom: 150px;
+  /* background-repeat: no-repeat; */
 }
 /* nav styles */
 nav {
@@ -107,6 +108,7 @@ main {
 }
 .action-content {
   max-width: 520px;
+  /* background-color: antiquewhite; */
 }
 .action-title {
   padding-bottom: 25px;
@@ -218,11 +220,11 @@ main {
   height: 230px;
 }
 .get-in-touch-container form {
-  width: 500px;
+  width: 40%;
   height: 500px;
-  /* background-color: white; */
   font-size: 18px;
   font-weight: 500;
+  /* background-color: white; */
 }
 .get-in-touch-container label {
   display: block;
@@ -230,11 +232,10 @@ main {
   margin-bottom: 8px;
 }
 .get-in-touch-container input[type="text"],
-.get-in-touch-container input[type="email"],
-.get-in-touch-container textarea {
-  width: 97%;
-  height: 65px;
-  padding: 15px 0 15px 15px;
+.get-in-touch-container input[type="email"] {
+  width: 93%;
+  height: 50px;
+  padding: 15px 0 15px 30px;
   font-size: 18px;
   border-radius: 10px;
   border: 1px solid #d6dded;
@@ -242,6 +243,13 @@ main {
 }
 .get-in-touch-container textarea {
   resize: none;
+  width: 93%;
+
+  padding: 15px 0 15px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid #d6dded;
+  display: block;
 }
 .get-in-touch-container input[type="button"] {
   width: 100%;
